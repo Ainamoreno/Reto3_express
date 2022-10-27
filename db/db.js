@@ -11,4 +11,9 @@ const sequelize = new Sequelize(
       dialect: config.development.dialect  
     }
 )
+
 module.exports = sequelize
+
+
+
+
