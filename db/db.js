@@ -13,3 +13,7 @@ const sequelize = new Sequelize(
 )
 
 module.exports = sequelize
+
+
+
+

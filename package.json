@@ -4,7 +4,9 @@
   "description": "Reto3",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+
+    "dev" : "nodemon index.js"
+
   },
   "author": "Aina Moreno",
   "license": "MIT",
