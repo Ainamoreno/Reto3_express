@@ -22,4 +22,4 @@ Almacenes.init({
     timestamps: false
 });
 
-module.exports = router
+module.exports = Almacenes

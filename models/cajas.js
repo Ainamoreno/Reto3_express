@@ -16,7 +16,7 @@ Cajas.init({
         type: DataTypes.INTEGER,
         references: {
             model: "almacenes",
-            key: "almacenId"
+            key: "almacenId" 
         }
     }
 },
@@ -27,4 +27,4 @@ Cajas.init({
     timestamps: false
 });
 
-module.exports = router
+module.exports = Cajas
