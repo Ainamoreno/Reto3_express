@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const db = require('./db/db')
+const morgan = require('morgan');
 
 const router = require('./router')
 // require('./models/associations')
@@ -9,6 +10,7 @@ const PORT = 6011
 
 //middleware
 app.use(express.json())
+app.use(morgan('dev'))
 app.use(router)
 
 

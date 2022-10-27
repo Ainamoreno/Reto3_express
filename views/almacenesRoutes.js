@@ -48,7 +48,9 @@ router.delete('/delAlm', async (req, res) => {
         let resp = await Almacenes.destroy({
             where: { almacenId: data.almacenId }
         })
-        res.send(resp);
+        if(resp == 1){
+            res.send('Registro eliminado!')
+        }
     } catch (err) {
         res.send(err)
     }
